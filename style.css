@@ -44,7 +44,7 @@
 }
 
 .content2 h2{
-    margin-top: 200px;
+    margin-top: 100px;
 }
 .content2 {
     font-size: 1.5rem;
@@ -255,6 +255,11 @@
 
 .perguntas p{
     color: whitesmoke;
+    display: none;
+}
+
+.questoes:hover p{
+    display: block;
 }
 
 .questoes{
@@ -267,6 +272,7 @@
 }
 
 .questoes:hover{
+    
     transform: scale(1.1);
     font-size: 1.2rem;
     box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
