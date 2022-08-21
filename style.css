@@ -1,0 +1,533 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Pagina 1*/
+.pagone{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(53,38,64,1) 0%, rgba(146,57,75,1) 35%, rgba(169,118,122,1) 100%);
+}
+
+.content{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translatex(-50%);
+
+}
+
+.content img{
+    width: 500px;
+    border-radius: 20px;
+}
+/*Pagina 1 - Final*/
+
+/*Pagina 2*/
+.pagtwo{
+    height: 230vh;
+    width: 100%;
+    background: rgba(53,38,64,1);
+    background-size: cover;  
+    outline: 1px solid black;
+}
+
+.content2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.content2 h2{
+    margin-top: 200px;
+}
+.content2 {
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px rgba(169,118,122,1);
+
+}
+
+
+.Joma{
+    
+    width: 500px;
+    border-radius: 20px;
+}
+
+.chat{
+    margin-top: 10vh;
+    width: 1000px;
+
+    
+}
+
+/*Pagina 2 - Final*/
+
+/*Pagina 3 */
+.pagthree{
+    height: 300vh;
+    width: 100%;
+    background: rgba(53,38,64,1);
+    
+}
+
+.content3{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.tabela img{
+    width: 300px;
+}
+
+.tabela form{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+.tabelita{
+    display: flex;
+    flex-direction: column;
+}
+
+.tabelaa{
+    display: flex;
+    flex-direction: row;
+    margin-top: 200px;
+    background: radial-gradient(circle, rgba(53,38,64,1) 0%, rgba(146,57,75,1) 100%);
+    box-shadow: -9px 7px 14px -1px #000000;
+    border-radius: 100px;
+    height: 70vh;
+    align-items: center;
+    padding: 10px;
+}
+
+.tabelaa2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    background: radial-gradient(circle, rgba(53,38,64,1) 0%, rgba(146,57,75,1) 100%);
+    box-shadow: -9px 7px 14px -1px #000000;
+    border-radius: 100px;
+    height: 70vh;
+    align-items: center;
+    padding: 10px;
+}
+
+.comida{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    transition: all .4s;
+}
+
+.comida h2{
+    background-color: rgba(53,38,64,1);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-style: italic;
+    width: 100%;
+    padding: 5px 15px;
+    border-radius: 30px;
+    margin-bottom: 5px;
+}
+
+.comida2{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    transition: all .4s;
+}
+
+.comida2 h2{
+    background-color: rgba(53,38,64,1);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-style: italic;
+    width: 100%;
+    padding: 5px 15px;
+    border-radius: 30px;
+    margin-bottom: 5px;
+}
+
+.comida22 h2{
+    background-color: rgba(53,38,64,1);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-style: italic;
+    text-align: center;
+    width: 100%;
+    margin-left: 10px;
+    padding: 5px 15px;
+    border-radius: 30px;
+    margin-bottom: 5px;
+}
+
+.risoles{
+    width: 400px;
+    border-radius: 10px;
+    
+}
+.arrozdoce{
+    width: 420px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.bolod{
+    width: 400px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.bolodp{
+    width: 360px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.Farofa{
+    width: 420px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+
+.comida:hover{
+    transform: scale(1.1);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.comida2:hover{
+    transform: scale(1.1);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+.btn{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: all .3s
+}
+
+
+.btn:hover{
+    transform: scale(1.2);
+}
+
+/*Pagina 3 - Final*/
+
+/*Pagina 4*/
+.pagfor{
+    height: 170vh;
+    width: 100%;
+    background: rgba(53,38,64,1);
+    display: flex;
+    outline: 1px solid black;
+}
+
+
+.perguntas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.perguntas h1{
+    color: white;
+    font-size: 1.9rem;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.perguntas p{
+    color: whitesmoke;
+    display: none;
+}
+
+.questoes:hover p{
+    display: block;
+}
+
+.questoes{
+    margin-top: 30px;
+    background: #f9004d;
+    padding: 10px;
+    border-radius: 10px;
+    width: 60%;
+    transition: all .3s;
+}
+
+.questoes:hover{
+    transform: scale(1.1);
+    font-size: 1.2rem;
+    box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+/*Pagina 4 - Final*/
+
+
+/*Pagina 5*/
+.pagfive{
+    height: 230vh;
+    width: 100%;
+    background: rgba(53,38,64,1);
+    display: flex;
+    outline: 1px solid black;
+}
+
+.mfj{
+    align-items: center;
+    text-align: center;
+    display: block;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.musicais{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background:  rgba(146,57,75,1);
+    padding: 20px;
+    border-radius: 20px;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.musica h2{
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
+.musica p {
+    margin-top: 5px;
+}
+.musica{
+    color: gold;
+    margin-top: 10px;
+}
+.musica form{
+    margin-top: 5px;
+}
+
+.filmes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background:  rgba(146,57,75,1);
+    padding: 20px;
+    border-radius: 20px;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+.filmes video{
+    border-radius: 10px;
+}
+
+.filme h2{
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
+.filme p {
+    margin-top: 5px;
+}
+
+.filme{
+    color: gold;
+    margin-top: 10px;
+}
+
+.filme form{
+    margin-top: 5px;
+}
+
+.jogos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background:  rgba(146,57,75,1);
+    padding: 20px;
+    border-radius: 20px;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+.jogo h2{
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
+.jogo p {
+    margin-top: 5px;
+}
+
+.jogo{
+    color: gold;
+    margin-top: 10px;
+}
+
+/*Pagina 5 - Final*/
+
+/*Pagina 6*/
+.pagesix{
+    height: 200vh;
+    width: 100%;
+    background: rgba(53,38,64,1);
+    display: flex;
+
+}
+
+.memes{
+    margin-top: 200px;
+    display: block;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.memes img{
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+}
+
+
+/*Pagina 6 - Final*/
+
+/*Receitas*/
+
+.box{
+    height: 200vh;
+    width: 100%;
+    background-color: cadetblue;
+}
+.box2{
+    height: 230vh;
+    width: 100%;
+    background-color: cadetblue;
+}
+
+.contet{
+    background-color: rgb(85, 200, 204);
+    height: 150vh;
+    width: 75%;
+    display: block;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translatex(-50%);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    
+}
+.Title{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.Title img{
+    border-radius: 10px;
+    box-shadow: -10px 0px 13px -7px cadetblue, 10px 0px 13px -7px cadetblue, 5px 5px 15px 5px cadetblue;
+}
+
+.Recipe{
+    width: 70%;
+}
+.texts{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.texts h2{
+    margin-top: 20px;
+}
+ol{
+    list-style: none;
+}
+
+.contet2{
+    background-color: rgb(85, 200, 204);
+    height: 190vh;
+    width: 75%;
+    display: block;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translatex(-50%);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    
+}
+.contet3{
+    background-color: rgb(85, 200, 204);
+    height: 160vh;
+    width: 75%;
+    display: block;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translatex(-50%);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    
+}
+.contet4{
+    background-color: rgb(85, 200, 204);
+    height: 170vh;
+    width: 75%;
+    display: block;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translatex(-50%);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    
+}
+
+
